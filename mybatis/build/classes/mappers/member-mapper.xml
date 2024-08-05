@@ -26,7 +26,7 @@
 	 </resultMap>
 	  -->
 	  
-	  <resultMap type="m" id="memberResultSet">
+	  <resultMap type="Member" id="memberResultSet">
 	  	<result column="user_id" property="userId"/>
 	  	<result column="user_pwe" property="userPwe"/>
 	  	<result column="user_name" property="userName"/>
